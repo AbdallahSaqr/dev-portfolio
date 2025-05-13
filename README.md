@@ -1,58 +1,12 @@
-# Dev Portfolio - Abdallah Ramadan
+# React + Vite
 
-A fully responsive and stylish developer portfolio built with React and Bootstrap. This project showcases my skills, projects, and experience as a full-stack web developer.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- Responsive design using React Bootstrap
-- Custom styled hero section with background image
-- About section with downloadable resume
-- Skills progress bars with animated styling
-- Portfolio section highlighting completed projects
-- Google Fonts / Times New Roman typography
-- Clean and modern UI
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Technologies Used
+## Expanding the ESLint configuration
 
-- React
-- React-Bootstrap
-- JavaScript (ES6+)
-- HTML & CSS
-- Google Fonts
-- Git & GitHub
-
-## 📁 Folder Structure
-
-src/
-│
-├── components/
-│ ├── Hero.jsx
-│ ├── About.jsx
-│ ├── Skills.jsx
-│ ├── Portfolio.jsx
-│
-├── assets/
-│ └── HeroImage.jpg
-│
-├── App.js
-└── index.js
-
-## 📄 Resume Download
-
-You can download my resume directly from the **About Me** section or [click here](https://drive.google.com/file/d/1JbTRxFha6Qw3FsH1_1RewoWgCjQITZVZ/view?usp=sharing).
-
-## 📌 Getting Started
-
-To run the project locally:
-
-git clone https://github.com/your-username/dev-portfolio.git
-cd dev-portfolio
-npm install
-npm start
-✨ Live Demo
-You can view the live project here: [coming soon]
-
-📬 Contact
-Feel free to reach out via LinkedIn or email me at: abdallahsaqr7@gmail.com
-
-⭐️ If you like this project, please consider giving it a star on GitHub!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
